@@ -1,0 +1,24 @@
+package tema4_Problemas;
+import java.util.Scanner;
+public class ej_4_3 {
+	public static void main(String args[]) {
+		Scanner teclado=new Scanner(System.in);
+		String oracion,palabra;
+		System.out.print("Introduzca una oracion: ");
+		oracion=teclado.nextLine();
+		System.out.print("Introduzca una palabra: ");
+		palabra=teclado.nextLine();
+		//La primera posicion de la cadena oracion es uno en vez de cero, para evitar confusiones
+		if(oracion.indexOf(palabra)+1==-1) {
+				System.out.println("0");
+			}
+			else {
+				System.out.println(oracion.indexOf(palabra)+1);
+			}
+	}
+}
+
+
+
+
+//La posición de un texto que no esta incluido en un string es siempre -1

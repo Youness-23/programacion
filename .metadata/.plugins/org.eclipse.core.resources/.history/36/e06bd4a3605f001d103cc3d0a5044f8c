@@ -1,0 +1,35 @@
+package tema4_Problemas;
+import java.util.Scanner;
+public class ej_4_8 {
+	public static void main(String args[]) {
+		Scanner teclado=new Scanner(System.in);
+		String oracion,oracion1,oracionFinal;
+		char caracter;
+		System.out.print("Introduzca una oracion: ");
+		oracion=teclado.nextLine();
+		oracion1=oracion.toUpperCase();
+		for (int i=0; i<oracion1.length(); i++) {
+			caracter=oracion1.charAt(i);
+			if (caracter!=' ') {
+				caracter+=3;
+				System.out.print(caracter);
+			}
+			else
+				System.out.print(caracter);
+		}
+		System.out.println("Introduzca una oracion: ");
+		oracion=teclado.nextLine();
+		oracion1=oracion.toUpperCase();
+		for (int i=0; i<oracion1.length(); i++) {
+			caracter=oracion1.charAt(i);
+			if (caracter!=' ') {
+				caracter-=3;
+				System.out.print(caracter);
+			}
+			else
+				System.out.print(caracter);
+		}
+	}
+
+	}
+

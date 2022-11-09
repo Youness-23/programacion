@@ -1,0 +1,16 @@
+package tema4_Problemas;
+import java.util.Scanner;
+public class ej_4_2 {
+	public static void main(String args[]) {
+		Scanner teclado=new Scanner(System.in);
+		String oracion;
+		System.out.print("Introduzca una oracion: ");
+		oracion=teclado.nextLine();
+		for (int letra=0; oracion.length()<=80; letra++) {
+			System.out.println(letra);
+			break;
+		}
+		if (oracion.length()>80)
+			System.out.println("Por favor, introduzca una oracion de menos de 80 caracteres");
+	}
+}

@@ -1,0 +1,13 @@
+package tema4_Problemas;
+import java.util.Scanner;
+public class ej_4_3 {
+	public static void main(String args[]) {
+		Scanner teclado=new Scanner(System.in);
+		String oracion,palabra;
+		System.out.print("Introduzca una oracion: ");
+		oracion=teclado.nextLine();
+		System.out.print("Introduzca una palabra: ");
+		palabra=teclado.nextLine();
+			System.out.println(oracion.indexOf(palabra));
+	}
+}
