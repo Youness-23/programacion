@@ -1,7 +1,0 @@
-package tema4_Problemas;
-import java.util.Scanner;
-public class ej_4_2 {
-	public static void main(String args[]) {
-		Scanner teclado=new Scanner(System.in);
-	}
-}

@@ -1,0 +1,11 @@
+package prueba.java;
+import java.util.Scanner;
+public class pruebecita{
+	public static void main(String args[]) {
+		Scanner teclado=new Scanner(System.in);
+		String ejeplo;
+		System.out.print("Introduce una frase: ");
+		ejeplo=teclado.nextLine();
+		System.out.println(ejeplo.substring(0,3));
+	}
+}
