@@ -1,7 +1,0 @@
-package prueba.java;
-public class pruebecita{
-	public static void main(String args[]) {
-		String oracion="uvuvwevwevwe onyetenyevwe ugwemuhwem osas";
-		System.out.print(oracion.length());
-	}
-}

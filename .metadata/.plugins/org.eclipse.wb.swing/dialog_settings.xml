@@ -18,4 +18,10 @@
 		<item key="width" value="881"/>
 		<item key="height" value="580"/>
 	</section>
+	<section name="org.eclipse.wb.internal.core.utils.ui.dialogs.StringsDialog">
+		<item key="x" value="460"/>
+		<item key="y" value="335"/>
+		<item key="width" value="360"/>
+		<item key="height" value="313"/>
+	</section>
 </section>

@@ -1,6 +1,0 @@
-import java.util.Scanner;
-public class module-info{
-	public static void main(String args[]) {
-		
-	}
-}
